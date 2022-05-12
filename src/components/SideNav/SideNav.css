@@ -1,0 +1,30 @@
+.SideNav {
+  background: blueviolet;
+  color: white;
+  width: 20%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Logo {
+  margin-bottom: 50px;
+}
+.TabSec {
+  width: 80%;
+}
+
+.NavTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 50px;
+}
+
+.NavTab:hover {
+  background-color: rgb(255, 255, 255);
+  color: blueviolet;
+  border-radius: 7px;
+  cursor: pointer;
+}

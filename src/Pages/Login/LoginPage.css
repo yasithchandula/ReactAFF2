@@ -1,0 +1,20 @@
+.Login {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+.Left {
+  width: 50%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LoginSec {
+  width: 60%;
+}
+.Right {
+  width: 50%;
+  background: blueviolet;
+}
