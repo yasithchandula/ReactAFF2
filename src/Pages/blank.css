@@ -1,0 +1,43 @@
+.Index {
+  /* background: yellow; */
+  display: flex;
+}
+.LeftBar {
+  width: 20%;
+  /* background: violet; */
+}
+.Content {
+  display: flex;
+  padding-top: 50px;
+  flex-direction: column;
+  gap: 20px;
+  /* align-items: center; */
+  /* justify-content: space-between; */
+  width: 100%;
+  background: rgb(228, 228, 227);
+  align-items: center;
+}
+.TabBar {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.TabCard {
+  background: #ffffff;
+  border-radius: 7px;
+  /* border: 1px solid rgb(151, 151, 151); */
+  box-shadow: 0 0 5px rgb(176, 173, 173);
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.ContentSec {
+  width: 90%;
+  background: #ffffff;
+  border-radius: 7px;
+  box-shadow: 0 0 5px rgb(176, 173, 173);
+  height: 50vh;
+}
