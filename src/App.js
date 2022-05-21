@@ -9,6 +9,7 @@ import {
   Route,
 } from "react-router-dom";
 import Blank from "./Pages/blank";
+import Login from "./Pages/Login/LoginPage"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <div>
           <Routes>
             <Route path="/test" element={<Blank/>}/>
+            <Route path="/login" element={<Login/>}/>
           </Routes>
         </div>
       </BrowserRouter>
